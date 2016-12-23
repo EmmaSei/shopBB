@@ -1,0 +1,688 @@
+12.20:00.00.28TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184373760, method=customer pickup, price=0.0}
+12.20:00.00.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184373775, method=customer pickup, price=0.0}
+12.20:00.00.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184373791, method=customer pickup, price=0.0}
+12.20:00.00.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184373806, method=customer pickup, price=0.0}
+12.20:00.00.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184373822, method=customer pickup, price=0.0}
+12.20:00.00.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184373838, method=customer pickup, price=0.0}
+12.20:00.00.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184828197, method=customer pickup, price=0.0}
+12.20:00.00.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184828213, method=customer pickup, price=0.0}
+12.20:00.00.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184828229, method=customer pickup, price=0.0}
+12.20:00.00.29ERROR	ru.sfedu.shop.Client:102 - Error parsing CSV!
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482168292579; name - bed; price - 5000.0; amount - 6
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482168326253; name - bed; price - 5000.0; amount - 6
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482168326672; name - bed; price - 5000.0; amount - 6
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482168369954; name - bed; price - 5000.0; amount - 6
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482168369955; name - table; price - 1000.0; amount - 16
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482168370435; name - bed; price - 5000.0; amount - 6
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482168493601; name - bed; price - 5000.0; amount - 6
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482168545260; name - table; price - 1000.0; amount - 16
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184052581; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184052643; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184052659; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184052674; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184052690; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184052706; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184052721; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184052737; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184052752; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184052768; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184189088; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184189103; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184189119; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184189135; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184189166; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184189244; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184189275; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184189322; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184189338; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184189369; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184373853; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184373869; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184373885; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184373900; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184373926; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184373943; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184373963; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184373978; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184373996; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184374010; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184828244; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184828260; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184828275; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184828291; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184828307; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184828354; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184828369; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184828416; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184828432; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184828447; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184916834; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184916866; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184916904; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184916925; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184916950; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184917059; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184917114; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184917165; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184917181; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:44 - id - 1482184917206; name - desk; price - 100.0; amount - 5
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482169649474;1482169649474;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482175624782;1482175624782;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184052131;1482184052131;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184052160;1482184052131;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184052207;1482184052131;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184052225;1482184052131;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184052252;1482184052131;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184052268;1482184052131;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184052284;1482184052131;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184188688;1482184188688;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184188703;1482184188688;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184188756;1482184188688;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184188816;1482184188688;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184188833;1482184188688;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184188846;1482184188688;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184188863;1482184188688;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184188877;1482184188688;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184188890;1482184188688;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184188903;1482184188688;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184373251;1482184373251;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184373283;1482184373251;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184373347;1482184373251;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184373387;1482184373251;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184373443;1482184373251;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184373478;1482184373251;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184373500;1482184373251;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184373514;1482184373251;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184373529;1482184373251;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184373544;1482184373251;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184827775;1482184827775;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184827810;1482184827775;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184827836;1482184827775;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184827855;1482184827775;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184827885;1482184827775;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184827926;1482184827775;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184827949;1482184827775;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184827963;1482184827775;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184827979;1482184827775;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184827994;1482184827775;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184915282;1482184915282;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184915371;1482184915282;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184915446;1482184915282;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184915591;1482184915282;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184915625;1482184915282;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184915643;1482184915282;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184915674;1482184915282;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184915695;1482184915282;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184915711;1482184915282;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:80 - 1482184915731;1482184915282;null;0;null;null;0.0
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 0;Pavel;Zorge 21;9876543;pasha@mael.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482175625146;Pavel;Zorge 1 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482175625518;Pavel;Zorge 2 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482175625653;Pavel;Zorge 3 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184052299;Pavel;Zorge 1 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184052315;Pavel;Zorge 2 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184052346;Pavel;Zorge 3 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184052409;Pavel;Zorge 4 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184052440;Pavel;Zorge 5 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184052471;Pavel;Zorge 6 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184052487;Pavel;Zorge 7 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184052502;Pavel;Zorge 8 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184052518;Pavel;Zorge 9 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184052549;Pavel;Zorge 10 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184188924;Pavel;Zorge 1 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184188946;Pavel;Zorge 2 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184188947;Pavel;Zorge 3 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184188963;Pavel;Zorge 4 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184188978;Pavel;Zorge 5 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184188994;Pavel;Zorge 6 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184189010;Pavel;Zorge 7 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184189025;Pavel;Zorge 8 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184189041;Pavel;Zorge 9 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184189056;Pavel;Zorge 10 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184373567;Pavel;Zorge 1 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184373581;Pavel;Zorge 2 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184373588;Pavel;Zorge 3 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184373603;Pavel;Zorge 4 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184373635;Pavel;Zorge 5 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184373666;Pavel;Zorge 6 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184373681;Pavel;Zorge 7 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184373697;Pavel;Zorge 8 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184373713;Pavel;Zorge 9 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184373728;Pavel;Zorge 10 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184828022;Pavel;Zorge 1 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184828039;Pavel;Zorge 2 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184828041;Pavel;Zorge 3 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184828057;Pavel;Zorge 4 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184828072;Pavel;Zorge 5 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184828103;Pavel;Zorge 6 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184828135;Pavel;Zorge 7 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184828150;Pavel;Zorge 8 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184828166;Pavel;Zorge 9 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184828182;Pavel;Zorge 10 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184915760;Pavel;Zorge 1 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184915785;Pavel;Zorge 2 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184915863;Pavel;Zorge 3 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184915916;Pavel;Zorge 4 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184916136;Pavel;Zorge 5 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184916168;Pavel;Zorge 6 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184916225;Pavel;Zorge 7 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184916257;Pavel;Zorge 8 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184916279;Pavel;Zorge 9 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:56 - 1482184916297;Pavel;Zorge 10 zh;9876543456;pasha@mail.ru
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482169064744, method=customer pickup, price=160.0}
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184052565, method=customer pickup, price=0.0}
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184189072, method=customer pickup, price=0.0}
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184373744, method=customer pickup, price=0.0}
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184373760, method=customer pickup, price=0.0}
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184373775, method=customer pickup, price=0.0}
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184373791, method=customer pickup, price=0.0}
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184373806, method=customer pickup, price=0.0}
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184373822, method=customer pickup, price=0.0}
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184373838, method=customer pickup, price=0.0}
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184828197, method=customer pickup, price=0.0}
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184828213, method=customer pickup, price=0.0}
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184828229, method=customer pickup, price=0.0}
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184916379, method=customer pickup, price=0.0}
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184916436, method=customer pickup, price=0.0}
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184916485, method=customer pickup, price=0.0}
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184916505, method=customer pickup, price=0.0}
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184916531, method=customer pickup, price=0.0}
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184916582, method=customer pickup, price=0.0}
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184916668, method=customer pickup, price=0.0}
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184916698, method=customer pickup, price=0.0}
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184916793, method=customer pickup, price=0.0}
+12.20:00.01.57TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184916812, method=customer pickup, price=0.0}
+12.20:00.01.57ERROR	ru.sfedu.shop.Client:102 - Error parsing CSV!
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482168292579; name - bed; price - 5000.0; amount - 6
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482168326253; name - bed; price - 5000.0; amount - 6
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482168326672; name - bed; price - 5000.0; amount - 6
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482168369954; name - bed; price - 5000.0; amount - 6
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482168369955; name - table; price - 1000.0; amount - 16
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482168370435; name - bed; price - 5000.0; amount - 6
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482168493601; name - bed; price - 5000.0; amount - 6
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482168545260; name - table; price - 1000.0; amount - 16
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184052581; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184052643; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184052659; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184052674; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184052690; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184052706; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184052721; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184052737; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184052752; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184052768; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184189088; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184189103; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184189119; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184189135; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184189166; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184189244; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184189275; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184189322; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184189338; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184189369; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184373853; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184373869; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184373885; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184373900; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184373926; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184373943; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184373963; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184373978; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184373996; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184374010; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184828244; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184828260; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184828275; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184828291; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184828307; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184828354; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184828369; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184828416; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184828432; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184828447; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184916834; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184916866; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184916904; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184916925; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184916950; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184917059; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184917114; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184917165; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184917181; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482184917206; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482185340998; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482185341018; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482185341040; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482185341059; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482185341078; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482185341104; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482185341119; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482185341132; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482185341146; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:44 - id - 1482185341160; name - desk; price - 100.0; amount - 5
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482169649474;1482169649474;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482175624782;1482175624782;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184052131;1482184052131;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184052160;1482184052131;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184052207;1482184052131;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184052225;1482184052131;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184052252;1482184052131;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184052268;1482184052131;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184052284;1482184052131;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184188688;1482184188688;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184188703;1482184188688;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184188756;1482184188688;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184188816;1482184188688;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184188833;1482184188688;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184188846;1482184188688;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184188863;1482184188688;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184188877;1482184188688;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184188890;1482184188688;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184188903;1482184188688;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184373251;1482184373251;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184373283;1482184373251;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184373347;1482184373251;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184373387;1482184373251;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184373443;1482184373251;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184373478;1482184373251;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184373500;1482184373251;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184373514;1482184373251;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184373529;1482184373251;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184373544;1482184373251;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184827775;1482184827775;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184827810;1482184827775;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184827836;1482184827775;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184827855;1482184827775;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184827885;1482184827775;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184827926;1482184827775;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184827949;1482184827775;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184827963;1482184827775;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184827979;1482184827775;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184827994;1482184827775;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184915282;1482184915282;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184915371;1482184915282;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184915446;1482184915282;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184915591;1482184915282;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184915625;1482184915282;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184915643;1482184915282;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184915674;1482184915282;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184915695;1482184915282;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184915711;1482184915282;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482184915731;1482184915282;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482185339961;1482185339961;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482185340008;1482185339961;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482185340095;1482185339961;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482185340124;1482185339961;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482185340145;1482185339961;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482185340163;1482185339961;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482185340180;1482185339961;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482185340202;1482185339961;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482185340246;1482185339961;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:80 - 1482185340271;1482185339961;null;0;null;null;0.0
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 0;Pavel;Zorge 21;9876543;pasha@mael.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482175625146;Pavel;Zorge 1 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482175625518;Pavel;Zorge 2 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482175625653;Pavel;Zorge 3 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184052299;Pavel;Zorge 1 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184052315;Pavel;Zorge 2 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184052346;Pavel;Zorge 3 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184052409;Pavel;Zorge 4 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184052440;Pavel;Zorge 5 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184052471;Pavel;Zorge 6 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184052487;Pavel;Zorge 7 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184052502;Pavel;Zorge 8 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184052518;Pavel;Zorge 9 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184052549;Pavel;Zorge 10 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184188924;Pavel;Zorge 1 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184188946;Pavel;Zorge 2 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184188947;Pavel;Zorge 3 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184188963;Pavel;Zorge 4 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184188978;Pavel;Zorge 5 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184188994;Pavel;Zorge 6 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184189010;Pavel;Zorge 7 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184189025;Pavel;Zorge 8 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184189041;Pavel;Zorge 9 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184189056;Pavel;Zorge 10 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184373567;Pavel;Zorge 1 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184373581;Pavel;Zorge 2 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184373588;Pavel;Zorge 3 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184373603;Pavel;Zorge 4 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184373635;Pavel;Zorge 5 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184373666;Pavel;Zorge 6 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184373681;Pavel;Zorge 7 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184373697;Pavel;Zorge 8 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184373713;Pavel;Zorge 9 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184373728;Pavel;Zorge 10 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184828022;Pavel;Zorge 1 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184828039;Pavel;Zorge 2 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184828041;Pavel;Zorge 3 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184828057;Pavel;Zorge 4 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184828072;Pavel;Zorge 5 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184828103;Pavel;Zorge 6 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184828135;Pavel;Zorge 7 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184828150;Pavel;Zorge 8 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184828166;Pavel;Zorge 9 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184828182;Pavel;Zorge 10 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184915760;Pavel;Zorge 1 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184915785;Pavel;Zorge 2 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184915863;Pavel;Zorge 3 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184915916;Pavel;Zorge 4 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184916136;Pavel;Zorge 5 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184916168;Pavel;Zorge 6 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184916225;Pavel;Zorge 7 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184916257;Pavel;Zorge 8 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184916279;Pavel;Zorge 9 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482184916297;Pavel;Zorge 10 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482185340342;Pavel;Zorge 1 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482185340374;Pavel;Zorge 2 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482185340417;Pavel;Zorge 3 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482185340457;Pavel;Zorge 4 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482185340562;Pavel;Zorge 5 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482185340665;Pavel;Zorge 6 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482185340691;Pavel;Zorge 7 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482185340715;Pavel;Zorge 8 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482185340760;Pavel;Zorge 9 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:56 - 1482185340776;Pavel;Zorge 10 zh;9876543456;pasha@mail.ru
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482169064744, method=customer pickup, price=160.0}
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184052565, method=customer pickup, price=0.0}
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184189072, method=customer pickup, price=0.0}
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184373744, method=customer pickup, price=0.0}
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184373760, method=customer pickup, price=0.0}
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184373775, method=customer pickup, price=0.0}
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184373791, method=customer pickup, price=0.0}
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184373806, method=customer pickup, price=0.0}
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184373822, method=customer pickup, price=0.0}
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184373838, method=customer pickup, price=0.0}
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184828197, method=customer pickup, price=0.0}
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184828213, method=customer pickup, price=0.0}
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184828229, method=customer pickup, price=0.0}
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184916379, method=customer pickup, price=0.0}
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184916436, method=customer pickup, price=0.0}
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184916485, method=customer pickup, price=0.0}
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184916505, method=customer pickup, price=0.0}
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184916531, method=customer pickup, price=0.0}
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184916582, method=customer pickup, price=0.0}
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184916668, method=customer pickup, price=0.0}
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184916698, method=customer pickup, price=0.0}
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184916793, method=customer pickup, price=0.0}
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184916812, method=customer pickup, price=0.0}
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482185340802, method=customer pickup, price=0.0}
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482185340826, method=customer pickup, price=0.0}
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482185340843, method=customer pickup, price=0.0}
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482185340861, method=customer pickup, price=0.0}
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482185340875, method=customer pickup, price=0.0}
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482185340898, method=customer pickup, price=0.0}
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482185340911, method=customer pickup, price=0.0}
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482185340939, method=customer pickup, price=0.0}
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482185340968, method=customer pickup, price=0.0}
+12.20:00.09.01TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482185340984, method=customer pickup, price=0.0}
+12.20:00.09.01ERROR	ru.sfedu.shop.Client:102 - Error parsing CSV!
+12.20:08.13.28TRACE	ru.sfedu.shop.Client:44 - id - 1482168292579; name - bed; price - 5000.0; amount - 6
+12.20:08.13.28TRACE	ru.sfedu.shop.Client:44 - id - 1482168326253; name - bed; price - 5000.0; amount - 6
+12.20:08.13.28TRACE	ru.sfedu.shop.Client:44 - id - 1482168326672; name - bed; price - 5000.0; amount - 6
+12.20:08.13.28TRACE	ru.sfedu.shop.Client:44 - id - 1482168369954; name - bed; price - 5000.0; amount - 6
+12.20:08.13.28TRACE	ru.sfedu.shop.Client:44 - id - 1482168369955; name - table; price - 1000.0; amount - 16
+12.20:08.13.28TRACE	ru.sfedu.shop.Client:44 - id - 1482168370435; name - bed; price - 5000.0; amount - 6
+12.20:08.13.28TRACE	ru.sfedu.shop.Client:44 - id - 1482168493601; name - bed; price - 5000.0; amount - 6
+12.20:08.13.28TRACE	ru.sfedu.shop.Client:44 - id - 1482168545260; name - table; price - 1000.0; amount - 16
+12.20:08.13.28TRACE	ru.sfedu.shop.Client:44 - id - 1482184052581; name - desk; price - 100.0; amount - 5
+12.20:08.13.28TRACE	ru.sfedu.shop.Client:44 - id - 1482184052643; name - desk; price - 100.0; amount - 5
+12.20:08.13.28TRACE	ru.sfedu.shop.Client:44 - id - 1482184052659; name - desk; price - 100.0; amount - 5
+12.20:08.13.28TRACE	ru.sfedu.shop.Client:44 - id - 1482184052674; name - desk; price - 100.0; amount - 5
+12.20:08.13.28TRACE	ru.sfedu.shop.Client:44 - id - 1482184052690; name - desk; price - 100.0; amount - 5
+12.20:08.13.28TRACE	ru.sfedu.shop.Client:44 - id - 1482184052706; name - desk; price - 100.0; amount - 5
+12.20:08.13.28TRACE	ru.sfedu.shop.Client:44 - id - 1482184052721; name - desk; price - 100.0; amount - 5
+12.20:08.13.28TRACE	ru.sfedu.shop.Client:44 - id - 1482184052737; name - desk; price - 100.0; amount - 5
+12.20:08.13.28TRACE	ru.sfedu.shop.Client:44 - id - 1482184052752; name - desk; price - 100.0; amount - 5
+12.20:08.13.28TRACE	ru.sfedu.shop.Client:44 - id - 1482184052768; name - desk; price - 100.0; amount - 5
+12.20:08.13.28TRACE	ru.sfedu.shop.Client:44 - id - 1482184189088; name - desk; price - 100.0; amount - 5
+12.20:08.13.28TRACE	ru.sfedu.shop.Client:44 - id - 1482184189103; name - desk; price - 100.0; amount - 5
+12.20:08.13.28TRACE	ru.sfedu.shop.Client:44 - id - 1482184189119; name - desk; price - 100.0; amount - 5
+12.20:08.13.28TRACE	ru.sfedu.shop.Client:44 - id - 1482184189135; name - desk; price - 100.0; amount - 5
+12.20:08.13.28TRACE	ru.sfedu.shop.Client:44 - id - 1482184189166; name - desk; price - 100.0; amount - 5
+12.20:08.13.28TRACE	ru.sfedu.shop.Client:44 - id - 1482184189244; name - desk; price - 100.0; amount - 5
+12.20:08.13.28TRACE	ru.sfedu.shop.Client:44 - id - 1482184189275; name - desk; price - 100.0; amount - 5
+12.20:08.13.28TRACE	ru.sfedu.shop.Client:44 - id - 1482184189322; name - desk; price - 100.0; amount - 5
+12.20:08.13.28TRACE	ru.sfedu.shop.Client:44 - id - 1482184189338; name - desk; price - 100.0; amount - 5
+12.20:08.13.28TRACE	ru.sfedu.shop.Client:44 - id - 1482184189369; name - desk; price - 100.0; amount - 5
+12.20:08.13.28TRACE	ru.sfedu.shop.Client:44 - id - 1482184373853; name - desk; price - 100.0; amount - 5
+12.20:08.13.28TRACE	ru.sfedu.shop.Client:44 - id - 1482184373869; name - desk; price - 100.0; amount - 5
+12.20:08.13.28TRACE	ru.sfedu.shop.Client:44 - id - 1482184373885; name - desk; price - 100.0; amount - 5
+12.20:08.13.28TRACE	ru.sfedu.shop.Client:44 - id - 1482184373900; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482184373926; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482184373943; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482184373963; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482184373978; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482184373996; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482184374010; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482184828244; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482184828260; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482184828275; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482184828291; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482184828307; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482184828354; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482184828369; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482184828416; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482184828432; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482184828447; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482184916834; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482184916866; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482184916904; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482184916925; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482184916950; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482184917059; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482184917114; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482184917165; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482184917181; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482184917206; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482185340998; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482185341018; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482185341040; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482185341059; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482185341078; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482185341104; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482185341119; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482185341132; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482185341146; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482185341160; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482214408651; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482214408674; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482214408701; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482214408729; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482214408769; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482214408797; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482214408819; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482214408848; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482214408889; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:44 - id - 1482214408911; name - desk; price - 100.0; amount - 5
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482169649474;1482169649474;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482175624782;1482175624782;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184052131;1482184052131;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184052160;1482184052131;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184052207;1482184052131;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184052225;1482184052131;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184052252;1482184052131;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184052268;1482184052131;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184052284;1482184052131;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184188688;1482184188688;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184188703;1482184188688;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184188756;1482184188688;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184188816;1482184188688;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184188833;1482184188688;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184188846;1482184188688;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184188863;1482184188688;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184188877;1482184188688;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184188890;1482184188688;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184188903;1482184188688;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184373251;1482184373251;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184373283;1482184373251;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184373347;1482184373251;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184373387;1482184373251;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184373443;1482184373251;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184373478;1482184373251;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184373500;1482184373251;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184373514;1482184373251;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184373529;1482184373251;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184373544;1482184373251;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184827775;1482184827775;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184827810;1482184827775;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184827836;1482184827775;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184827855;1482184827775;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184827885;1482184827775;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184827926;1482184827775;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184827949;1482184827775;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184827963;1482184827775;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184827979;1482184827775;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184827994;1482184827775;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184915282;1482184915282;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184915371;1482184915282;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184915446;1482184915282;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184915591;1482184915282;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184915625;1482184915282;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184915643;1482184915282;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184915674;1482184915282;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184915695;1482184915282;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184915711;1482184915282;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482184915731;1482184915282;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482185339961;1482185339961;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482185340008;1482185339961;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482185340095;1482185339961;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482185340124;1482185339961;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482185340145;1482185339961;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482185340163;1482185339961;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482185340180;1482185339961;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482185340202;1482185339961;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482185340246;1482185339961;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482185340271;1482185339961;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482214405745;1482214405745;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482214405776;1482214405745;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482214405920;1482214405745;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482214405954;1482214405745;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482214406052;1482214405745;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482214406071;1482214405745;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482214406089;1482214405745;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482214406108;1482214405745;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482214406128;1482214405745;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:80 - 1482214406295;1482214405745;null;0;null;null;0.0
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:56 - 0;Pavel;Zorge 21;9876543;pasha@mael.ru
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:56 - 1482175625518;Pavel;Zorge 2 zh;9876543456;pasha@mail.ru
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:56 - 1482175625653;Pavel;Zorge 3 zh;9876543456;pasha@mail.ru
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:56 - 1482214406476;Pavel;Zorge 1 zh;9876543456;pasha@mail.ru
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:56 - 1482214406502;Pavel;Zorge 2 zh;9876543456;pasha@mail.ru
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:56 - 1482214406612;Pavel;Zorge 3 zh;9876543456;pasha@mail.ru
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:56 - 1482214406688;Pavel;Zorge 4 zh;9876543456;pasha@mail.ru
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:56 - 1482214406705;Pavel;Zorge 5 zh;9876543456;pasha@mail.ru
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:56 - 1482214406723;Pavel;Zorge 6 zh;9876543456;pasha@mail.ru
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:56 - 1482214406739;Pavel;Zorge 7 zh;9876543456;pasha@mail.ru
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:56 - 1482214406902;Pavel;Zorge 8 zh;9876543456;pasha@mail.ru
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:56 - 1482214406919;Pavel;Zorge 9 zh;9876543456;pasha@mail.ru
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:56 - 1482214406972;Pavel;Zorge 10 zh;9876543456;pasha@mail.ru
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482169064744, method=customer pickup, price=160.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184052565, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184189072, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184373744, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184373760, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184373775, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184373791, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184373806, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184373822, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184373838, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184828197, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184828213, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184828229, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184916379, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184916436, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184916485, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184916505, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184916531, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184916582, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184916668, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184916698, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184916793, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482184916812, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482185340802, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482185340826, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482185340843, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482185340861, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482185340875, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482185340898, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482185340911, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482185340939, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482185340968, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482185340984, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482214406990, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482214407020, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482214407071, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482214407214, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482214407301, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482214407373, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482214408142, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482214408416, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482214408524, method=customer pickup, price=0.0}
+12.20:08.13.29TRACE	ru.sfedu.shop.Client:31 - Delivery{id=1482214408620, method=customer pickup, price=0.0}
+12.20:08.13.29ERROR	ru.sfedu.shop.Client:102 - Error parsing CSV!
+12.23:13.27.01 INFO	ru.sfedu.shop.Client:51 - incorect query
+12.23:13.27.53 INFO	ru.sfedu.shop.Client:51 - incorect query
+12.23:13.28.28 INFO	ru.sfedu.shop.Client:55 - 1482175625518;Pavel;Zorge 2 zh;9876543456;pasha@mail.ru
+12.23:13.28.28 INFO	ru.sfedu.shop.Client:55 - 1482175625653;Pavel;Zorge 3 zh;9876543456;pasha@mail.ru
+12.23:13.28.28 INFO	ru.sfedu.shop.Client:55 - 1482214406476;Pavel;Zorge 1 zh;9876543456;pasha@mail.ru
+12.23:13.28.28 INFO	ru.sfedu.shop.Client:55 - 1482214406502;Pavel;Zorge 2 zh;9876543456;pasha@mail.ru
+12.23:13.28.28 INFO	ru.sfedu.shop.Client:55 - 1482214406612;Pavel;Zorge 3 zh;9876543456;pasha@mail.ru
+12.23:13.28.28 INFO	ru.sfedu.shop.Client:55 - 1482214406688;Pavel;Zorge 4 zh;9876543456;pasha@mail.ru
+12.23:13.28.28 INFO	ru.sfedu.shop.Client:55 - 1482214406705;Pavel;Zorge 5 zh;9876543456;pasha@mail.ru
+12.23:13.28.28 INFO	ru.sfedu.shop.Client:55 - 1482214406723;Pavel;Zorge 6 zh;9876543456;pasha@mail.ru
+12.23:13.28.28 INFO	ru.sfedu.shop.Client:55 - 1482214406739;Pavel;Zorge 7 zh;9876543456;pasha@mail.ru
+12.23:13.28.28 INFO	ru.sfedu.shop.Client:55 - 1482214406902;Pavel;Zorge 8 zh;9876543456;pasha@mail.ru
+12.23:13.30.30 INFO	ru.sfedu.shop.Client:52 - incorect query
+12.23:13.30.34 INFO	ru.sfedu.shop.Client:52 - incorect query
+12.23:13.30.38 INFO	ru.sfedu.shop.Client:56 - 1482175625518;Pavel;Zorge 2 zh;9876543456;pasha@mail.ru
+12.23:13.30.38 INFO	ru.sfedu.shop.Client:56 - 1482175625653;Pavel;Zorge 3 zh;9876543456;pasha@mail.ru
+12.23:13.30.38 INFO	ru.sfedu.shop.Client:56 - 1482214406476;Pavel;Zorge 1 zh;9876543456;pasha@mail.ru
+12.23:13.30.38 INFO	ru.sfedu.shop.Client:56 - 1482214406502;Pavel;Zorge 2 zh;9876543456;pasha@mail.ru
+12.23:13.30.38 INFO	ru.sfedu.shop.Client:56 - 1482214406612;Pavel;Zorge 3 zh;9876543456;pasha@mail.ru
+12.23:13.30.38 INFO	ru.sfedu.shop.Client:56 - 1482214406688;Pavel;Zorge 4 zh;9876543456;pasha@mail.ru
+12.23:13.30.38 INFO	ru.sfedu.shop.Client:56 - 1482214406705;Pavel;Zorge 5 zh;9876543456;pasha@mail.ru
+12.23:13.30.38 INFO	ru.sfedu.shop.Client:56 - 1482214406723;Pavel;Zorge 6 zh;9876543456;pasha@mail.ru
+12.23:13.30.38 INFO	ru.sfedu.shop.Client:56 - 1482214406739;Pavel;Zorge 7 zh;9876543456;pasha@mail.ru
+12.23:13.30.38 INFO	ru.sfedu.shop.Client:56 - 1482214406902;Pavel;Zorge 8 zh;9876543456;pasha@mail.ru
+12.23:13.32.23 INFO	ru.sfedu.shop.Client:52 - incorect query
+12.23:13.32.26 INFO	ru.sfedu.shop.Client:56 - 1482175625518;Pavel;Zorge 2 zh;9876543456;pasha@mail.ru
+12.23:13.32.26 INFO	ru.sfedu.shop.Client:56 - 1482175625653;Pavel;Zorge 3 zh;9876543456;pasha@mail.ru
+12.23:13.32.26 INFO	ru.sfedu.shop.Client:56 - 1482214406476;Pavel;Zorge 1 zh;9876543456;pasha@mail.ru
+12.23:13.32.26 INFO	ru.sfedu.shop.Client:56 - 1482214406502;Pavel;Zorge 2 zh;9876543456;pasha@mail.ru
+12.23:13.32.26 INFO	ru.sfedu.shop.Client:56 - 1482214406612;Pavel;Zorge 3 zh;9876543456;pasha@mail.ru
+12.23:13.32.26 INFO	ru.sfedu.shop.Client:56 - 1482214406688;Pavel;Zorge 4 zh;9876543456;pasha@mail.ru
+12.23:13.32.26 INFO	ru.sfedu.shop.Client:56 - 1482214406705;Pavel;Zorge 5 zh;9876543456;pasha@mail.ru
+12.23:13.32.26 INFO	ru.sfedu.shop.Client:56 - 1482214406723;Pavel;Zorge 6 zh;9876543456;pasha@mail.ru
+12.23:13.32.26 INFO	ru.sfedu.shop.Client:56 - 1482214406739;Pavel;Zorge 7 zh;9876543456;pasha@mail.ru
+12.23:13.32.26 INFO	ru.sfedu.shop.Client:56 - 1482214406902;Pavel;Zorge 8 zh;9876543456;pasha@mail.ru
+12.23:13.32.30 INFO	ru.sfedu.shop.Client:56 - 1482175625518;Pavel;Zorge 2 zh;9876543456;pasha@mail.ru
+12.23:13.32.30 INFO	ru.sfedu.shop.Client:56 - 1482175625653;Pavel;Zorge 3 zh;9876543456;pasha@mail.ru
+12.23:13.32.30 INFO	ru.sfedu.shop.Client:56 - 1482214406476;Pavel;Zorge 1 zh;9876543456;pasha@mail.ru
+12.23:13.32.30 INFO	ru.sfedu.shop.Client:56 - 1482214406502;Pavel;Zorge 2 zh;9876543456;pasha@mail.ru
+12.23:13.32.30 INFO	ru.sfedu.shop.Client:56 - 1482214406612;Pavel;Zorge 3 zh;9876543456;pasha@mail.ru
+12.23:13.32.30 INFO	ru.sfedu.shop.Client:56 - 1482214406688;Pavel;Zorge 4 zh;9876543456;pasha@mail.ru
+12.23:13.32.30 INFO	ru.sfedu.shop.Client:56 - 1482214406705;Pavel;Zorge 5 zh;9876543456;pasha@mail.ru
+12.23:13.32.30 INFO	ru.sfedu.shop.Client:56 - 1482214406723;Pavel;Zorge 6 zh;9876543456;pasha@mail.ru
+12.23:13.32.30 INFO	ru.sfedu.shop.Client:56 - 1482214406739;Pavel;Zorge 7 zh;9876543456;pasha@mail.ru
+12.23:13.32.30 INFO	ru.sfedu.shop.Client:56 - 1482214406902;Pavel;Zorge 8 zh;9876543456;pasha@mail.ru
+12.23:13.42.43 INFO	ru.sfedu.shop.Client:69 - Delivery{id=1482169064744, method=customer pickup, price=160.0}
+12.23:13.42.43 INFO	ru.sfedu.shop.Client:69 - Delivery{id=1482184052565, method=customer pickup, price=0.0}
+12.23:13.42.43 INFO	ru.sfedu.shop.Client:69 - Delivery{id=1482184189072, method=customer pickup, price=0.0}
+12.23:13.42.43 INFO	ru.sfedu.shop.Client:69 - Delivery{id=1482184373744, method=customer pickup, price=0.0}
+12.23:13.42.43 INFO	ru.sfedu.shop.Client:69 - Delivery{id=1482184373760, method=customer pickup, price=0.0}
+12.23:13.42.43 INFO	ru.sfedu.shop.Client:69 - Delivery{id=1482184373775, method=customer pickup, price=0.0}
+12.23:13.42.43 INFO	ru.sfedu.shop.Client:69 - Delivery{id=1482184373791, method=customer pickup, price=0.0}
+12.23:13.42.43 INFO	ru.sfedu.shop.Client:69 - Delivery{id=1482184373806, method=customer pickup, price=0.0}
+12.23:13.42.43 INFO	ru.sfedu.shop.Client:69 - Delivery{id=1482184373822, method=customer pickup, price=0.0}
+12.23:13.42.43 INFO	ru.sfedu.shop.Client:69 - Delivery{id=1482184373838, method=customer pickup, price=0.0}
+12.23:14.38.08 INFO	ru.sfedu.shop.Client:40 - [1482214406502;Pavel;Zorge 2 zh;9876543456;pasha@mail.ru]
+12.23:15.38.11ERROR	ru.sfedu.shop.Client:134 - Error: java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+12.23:15.39.19ERROR	ru.sfedu.shop.Client:134 - Error: Index: 0, Size: 0
+12.23:16.43.36ERROR	ru.sfedu.shop.Client:115 - Error: java.lang.NullPointerException
+12.23:16.43.37ERROR	ru.sfedu.shop.Client:137 - Error: null
+12.23:17.17.34ERROR	ru.sfedu.shop.Client:97 - Error: java.lang.RuntimeException: Uncompilable source code - Erroneous ctor sym type: java.util.HashMap.<init>
+12.23:17.18.58ERROR	ru.sfedu.shop.Client:97 - Error: java.lang.IllegalArgumentException: Illegal initial capacity: -1
+12.23:17.24.25ERROR	ru.sfedu.shop.Client:97 - Error: java.lang.Exception: Products count is few
+12.23:17.28.21ERROR	ru.sfedu.shop.Client:97 - Error: java.lang.Exception: Products count is few
