@@ -1,0 +1,6 @@
+<Payment>
+   <id>1487764003314</id>
+   <paymentMethod>card</paymentMethod>
+   <dateReceived>19122016</dateReceived>
+   <amountReceived>2.0</amountReceived>
+</Payment>

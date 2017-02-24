@@ -9,7 +9,7 @@ public class DeliveryTest {
     }
     
     @Test
-    public void testConstr() {
+    public void testConstr() throws InterruptedException {
         Delivery instance = new Delivery(System.currentTimeMillis(), "самовывоз", 450);
         System.out.println(instance.toString());
         assertNotNull(instance);

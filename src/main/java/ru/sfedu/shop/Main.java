@@ -3,17 +3,19 @@ package ru.sfedu.shop;
 
 import java.util.ArrayList;
 import java.util.Scanner;
+
 import org.apache.log4j.Logger;
+
 import ru.sfedu.shop.dao.CsvAPI;
+import ru.sfedu.shop.dao.XmlApi;
 import ru.sfedu.shop.dto.ClassType;
 import ru.sfedu.shop.model.ValueOfResult;
 
 
-
-public class Client {
-    private static Logger log = Logger.getLogger(Client.class);
+public class Main {
+    private static Logger log = Logger.getLogger(Main.class);
   
-    public Client() {
+    public Main() {
         log.debug("<Your constructor name>[0]: starting application.........");
     }
 
@@ -33,12 +35,12 @@ public class Client {
     }
     
     public static void main(String[] args) throws Exception{
-//        Client client =  new Client();
-//        client.logBasicSystemInfo();
-        CsvAPI csvAPI = new CsvAPI();
-        ValueOfResult valueOfResult= csvAPI.getObjectById(1482214406502L, ClassType.CUS);
-        log.info(valueOfResult.getValue().toString());
-        cli();
+       // ConfigurationUtil configurationUtil = new ConfigurationUtil(System.getProperty(GLOBAL_PROP));
+       // log.debug(System.getProperty(GLOBAL_PROP));
+       // log.debug(configurationUtil.getConfigurationEntry(PATH_CSV_STORE));
+      // Main main = new Main();
+      // main.logBasicSystemInfo();
+       cli();
     }
     
     public static void cli() throws Exception{
@@ -48,42 +50,24 @@ public class Client {
             CsvAPI  ca = new CsvAPI();
             String[] query;
             ClassType classType;
-            query=divide(sc.nextLine());
-            switch(query[1]){
-                case "delivery" :   
-                                    classType=ClassType.DLV;
-                                    break;
-                case "customer" : 
-                                    classType=ClassType.CUS;
-                                    break;
-                case "order" : 
-                                    classType=ClassType.ORD;
-                                    break;
-                case "payment" : 
-                                    classType=ClassType.PAY;
-                                    break;
-                case "product" : 
-                                    classType=ClassType.PRD;
-                                    break;
-                                    
-                default:
-                        log.info("incorect query");
-                        throw new Exception();
+            log.info("\n>");
+            query=divide(sc.nextLine());  //System.console().readLine());
+            if("exit".equals(query[0])){
+                return;
             }
+            classType = ClassType.valueOf(query[1].toUpperCase());
             switch(query[0]){
                 case "select" : 
                                 result=ca.select(classType);
                                 break;
                 default : 
-                        log.info("incorect query");
+                        log.info("incorrect query");
                         throw new Exception();
             }
             for (int i = 0; i < 10; i++) {
                 log.info(result.getValue().get(i));
             }
-            if(!"exit".equals(query)){
-                cli();
-            }
+            cli();
         } catch (Exception e) {
             cli();
         }

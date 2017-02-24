@@ -1,12 +1,8 @@
 package ru.sfedu.shop.dao;
-import com.google.common.collect.HashBiMap;
-import java.util.HashMap;
-import java.util.Map;
 import org.apache.log4j.Logger;
 import org.junit.Test;
 import static org.junit.Assert.*;
-import ru.sfedu.shop.Client;
-import ru.sfedu.shop.dto.BaseDto;
+import ru.sfedu.shop.Main;
 import ru.sfedu.shop.dto.Customer;
 import ru.sfedu.shop.dto.Delivery;
 import ru.sfedu.shop.dto.Order;
@@ -20,7 +16,7 @@ import ru.sfedu.shop.model.StatusType;
  * @author Эмма
  */
 public class CsvAPIInsertTest {
-     private static final Logger log = Logger.getLogger(Client.class);
+     private static final Logger log = Logger.getLogger(Main.class);
        /**
      * Test of insert method, of class CsvAPI.
      */
@@ -68,7 +64,7 @@ public class CsvAPIInsertTest {
             Result result;
             Customer obj;
             for (int i = 1; i < 11; i++) {
-                obj = new Customer(System.currentTimeMillis(), "Pavel", "Zorge "+i+" zh", "9876543456","pasha@mail.ru");
+                obj = new Customer(System.currentTimeMillis(), "Pavel", "Zorge "+i+" zh", "9876543456","pasha@mail.ru", false);
                 result = instance.insert(obj);
                 assertEquals(StatusType.GOOD.toString(), result.getStatus());
             }
@@ -85,12 +81,11 @@ public class CsvAPIInsertTest {
             CsvAPI instance = new CsvAPI();
             Result result;
             Payment obj;
-            Product bj = new Product(System.currentTimeMillis(), "desk", 100 ,5);
+            Product bj = new Product(System.currentTimeMillis(), "desk", 100 ,50);
             instance.insert(bj);
             for (int i = 0; i < 10; i++) {
                 obj = new Payment(System.currentTimeMillis(), "card", 19122016, 2);
-                obj.getProducts().put(bj.getId(), 5);
-                result = instance.addPayment(obj);
+                result = instance.insert(obj);
                 assertEquals(StatusType.GOOD.toString(), result.getStatus());
             }
         } catch (Exception e) {
@@ -106,43 +101,21 @@ public class CsvAPIInsertTest {
             CsvAPI instance = new CsvAPI();
             Delivery delivery = new Delivery(System.currentTimeMillis(), "customer pickup", 0);
             Payment payment = new Payment(System.currentTimeMillis(), "card", 19122016, 2);
-            Customer customer = new Customer(System.currentTimeMillis(), "Pavel", "Zorge zh", "9876543456","pasha@mail.ru");
-            Product product = new Product(System.currentTimeMillis(), "desk", 100 ,5);
-            payment.getProducts().put(product.getId(), 2);
-            product = new Product(System.currentTimeMillis(), "table", 200 ,5);
-            payment.getProducts().put(product.getId(), 1);
+            Customer customer = new Customer(System.currentTimeMillis(), "Pavel", "Zorge zh", "9876543456","pasha@mail.ru",false);
             Result result;
             Order obj;
-            for (int i = 1; i < 11; i++) {
-                obj = new Order(System.currentTimeMillis(), "12A765", customer.getId(),19122016,"sended", payment, 3, delivery.getId());
-                result = instance.insert(obj);
-                assertEquals(StatusType.GOOD.toString(), result.getStatus());
-            }
+            obj = new Order(System.currentTimeMillis(), "12A765", customer.getId(),19122016,"sended", payment.getId(), 3, delivery.getId());
+            Product product = new Product(System.currentTimeMillis(), "desk", 100 ,5);
+            obj.getProducts().put(product.getId(), 2);
+            product = new Product(System.currentTimeMillis(), "table", 200 ,5);
+            obj.getProducts().put(product.getId(), 1);
+            result = instance.insert(obj);
+            assertEquals(StatusType.GOOD.toString(), result.getStatus());
+            
         } catch (Exception e) {
             log.error("Error: "+e);
             throw e;
         }
     }
     
-    @Test
-    public void testAddPayment() throws Exception {
-        try {
-            System.out.println("Add Payment");
-            CsvAPI instance = new CsvAPI();
-            Payment payment = new Payment(System.currentTimeMillis(), "card", 19122016, 2);
-            Product product = new Product(System.currentTimeMillis(), "desk", 100 ,5);
-            instance.insert(product);
-            payment.getProducts().put(product.getId(), 2);
-            product = new Product(System.currentTimeMillis(), "table", 200 ,5);
-            instance.insert(product);
-            payment.getProducts().put(product.getId(), 1);
-            Result result;
-            
-            result = instance.addPayment(payment);
-            assertEquals(StatusType.GOOD.toString(), result.getStatus());
-        } catch (Exception e) {
-            log.error("Error: "+e.getMessage());
-            throw e;
-        }
-    }
 }

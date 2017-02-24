@@ -1,16 +1,17 @@
 package ru.sfedu.shop.dto;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
+import org.simpleframework.xml.*;
 
-
+@Root(name="Payment")
 public class Payment extends BaseDto{
+    @Element(name="paymentMethod")
     private String paymentMethod;
+    
+    @Element(name="dateReceived")
     private long dateReceived;
+    
+    @Element
     private float amountReceived;
-    private String productsString="";
-    private Map <Long,Integer> products = new HashMap<Long, Integer>();
 
     public Payment() throws InterruptedException {
         super(ClassType.PAY);
@@ -24,24 +25,6 @@ public class Payment extends BaseDto{
         this.amountReceived = amountReceived;
     }
     
-    private void buildProductsString(){
-        String valuesString="";
-        for (Map.Entry<Long, Integer> entry : products.entrySet()) {
-            Long key = entry.getKey();
-            Integer value = entry.getValue();
-            valuesString+=key+"="+value+"?";
-            this.productsString=valuesString;
-        }
-    }
-    
-    public String getProductsString() {
-        return productsString;
-    }
-
-    public void setProductsString(String productsString) {
-        this.productsString = productsString;
-    }
-
     public String getPaymentMethod() {
         return paymentMethod;
     }
@@ -88,43 +71,15 @@ public class Payment extends BaseDto{
         }
         return true;
     }
-    
-    public Map<Long,Integer> getProducts() {
-        parseProductsString();
-        buildProductsString();
-        return products;
-    }
-
-    public void setProducts(Map<Long, Integer> produts) {
-        this.products = produts;
-        buildProductsString();
-    }
-    
-    private void parseProductsString(){
-        String[] objectsString;
-        objectsString=divide(this.productsString, '?');
-        for (int i = 0; i < objectsString.length; i++) {
-            String[] obj=divide(objectsString[i], '=');
-            this.products.put(Long.parseLong(obj[0]), Integer.parseInt(obj[1]));
+    public String getValueByFieldName(String name) throws Exception{
+        String value;
+        switch(name){
+            case "id" : value = Long.toString(getId()); break;
+            case "paymentMethod"  : value = paymentMethod; break;
+            case "dateReceived"  : value = Long.toString(dateReceived); break;
+            case "amountReceived"  : value = Float.toString(amountReceived); break;
+            default : throw new Exception("field is not right");
         }
-    }
-    
-    private String[] divide(String s, char separator) {
-        ArrayList<String> tmp = new ArrayList<String>();
-        int i = 0;
-        boolean f = false;
-
-        for (int j = 0; j < s.length(); j++) {
-            if (s.charAt(j) == separator) {
-                if (j > i) {
-                    tmp.add(s.substring(i, j));
-                }
-                i = j + 1;
-            }
-        }
-        if (i < s.length()) {
-            tmp.add(s.substring(i));
-        }
-        return tmp.toArray(new String[tmp.size()]);
-    }
+        return value;
+    }    
 }

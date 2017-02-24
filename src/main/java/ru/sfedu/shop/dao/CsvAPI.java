@@ -9,26 +9,30 @@ import com.opencsv.bean.CsvToBean;
 
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
 
 import java.util.List;
 import java.util.Map;
 
 import org.apache.log4j.Logger;
+import ru.sfedu.shop.utils.FilterCSV;
 
 import ru.sfedu.shop.dto.*;
 import ru.sfedu.shop.model.*;
+import static ru.sfedu.shop.utils.ConfigurationUtil.getConfigurationEntry;
 
 public class CsvAPI implements IGeneric{
     private static Logger log = Logger.getLogger(CsvAPI.class);
 
     @Override
-    public Result insert(BaseDto obj) throws Exception{
+    public Result insert(ArrayList<BaseDto> obj) throws Exception{
         Result res= new Result();
         try{
             BeanToCsv beanToCsv = new BeanToCsv();
             List<BaseDto> list = addRecord(obj);
-            CSVWriter csvw = new CSVWriter(new FileWriter(getFileName(obj.getClassType())), ',');
-            beanToCsv.write(switchClass(obj.getClassType()), csvw, list);
+            CSVWriter csvw = new CSVWriter(new FileWriter(getFileName(obj.get(0).getClassType())), ',');
+            beanToCsv.write(switchClass(obj.get(0).getClassType()), csvw, list);
             csvw.close();
             res.setStatus(StatusType.GOOD.toString());
             res.setErrMsg("cool!!!!!");
@@ -108,31 +112,26 @@ public class CsvAPI implements IGeneric{
         }
         return result;
     }
-    protected String getFileName(ClassType classType){
-        String str;
-        switch (classType){
-            case DLV: str=DELIVERY_FILE_NAME; break;
-            case CUS: str=CUSTOMER_FILE_NAME; break;
-            case ORD: str=ORDER_FILE_NAME; break;
-            case PAY: str=PAYMENT_FILE_NAME; break;
-            case PRD: str=PRODUCT_FILE_NAME; break;
-            default : str="error";log.error("it is impossible to determine the type of the class"); break; 
-        }
+    protected String getFileName(ClassType classType) throws IOException{
+        String str=getConfigurationEntry(PATH_CSV_STORE);
+        str+=classType.toString()+".csv";
         return str;
     }
     
-    protected List<BaseDto> addRecord(BaseDto baseDto) throws Exception{
-        CSVReader csvr = new CSVReader(new FileReader(getFileName(baseDto.getClassType())),',');
+    protected List<BaseDto> addRecord(ArrayList<BaseDto> baseDto) throws Exception{
+        CSVReader csvr = new CSVReader(new FileReader(getFileName(baseDto.get(0).getClassType())),',');
         CsvToBean csvToBean = new CsvToBean();
         try{
-            FilterCSV filterCSV = new FilterCSV(switchClass(baseDto.getClassType()));
-            List<BaseDto> list = csvToBean.parse(switchClass(baseDto.getClassType()), csvr, filterCSV);
+            FilterCSV filterCSV = new FilterCSV(switchClass(baseDto.get(0).getClassType()));
+            List<BaseDto> list = csvToBean.parse(switchClass(baseDto.get(0).getClassType()), csvr, filterCSV);
             for(int i=0; i<list.size(); i++){
-                if(list.get(i).equals(baseDto)){
-                    throw new Exception();
+                for (int j = 0; j < baseDto.size(); j++) {
+                    if(list.get(i).equals(baseDto.get(j))){
+                        throw new Exception();
+                    }
                 }
             }
-            list.add(baseDto);
+            list.addAll(baseDto);
             csvr.close();
             return list;
         }
@@ -141,7 +140,7 @@ public class CsvAPI implements IGeneric{
             throw e;
         }
     }
-    public List<BaseDto> read(BaseDto baseDto) throws Exception{
+    protected List<BaseDto> read(BaseDto baseDto) throws Exception{
         CSVReader csvr = new CSVReader(new FileReader(getFileName(baseDto.getClassType())),',');
         CsvToBean csvToBean = new CsvToBean();
         try{
@@ -181,46 +180,74 @@ public class CsvAPI implements IGeneric{
     }
 
     @Override
-    public Result getObjectByName(String name, ClassType classType) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public Delivery getDeliveryByOrderNumber(String number) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public Payment getOrderDetail(String orderNumber) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public void getCustomerActivity() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public void getPaymentProduct() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public Result addPayment(Payment payment) throws Exception{
-        Map <Long,Integer> products = payment.getProducts();
-        ValueOfResult instance;
-        for (Map.Entry<Long, Integer> entry : products.entrySet()) {
-            instance=getObjectById(entry.getKey(), ClassType.PRD);
-            isProductsExists(instance);
-            isProductsCount(instance, (int)entry.getValue());
+    public ValueOfResult getDeliveryByOrderNumber(String number) {
+        ValueOfResult result= new ValueOfResult();
+        Order order;
+        try {
+            order = (Order)select(ClassType.ORD, "number", number).getValue().get(0);
+            result.setValue(select(ClassType.DLV, "id", Long.toString(order.getDelivery())).getValue());
+            result.setStatus(StatusType.GOOD.toString());
+        } catch (Exception ex) {
+            log.error(ex);
+            result.setStatus(StatusType.ERROR.toString());
+            result.setErrMsg(ex.getMessage());   
         }
-        return insert(payment);
+        return result;
+        
+    }
+
+    @Override
+    public ValueOfResult getOrderDetail(String orderNumber) {
+        CsvAPI csvAPI = new CsvAPI();
+        ValueOfResult result = new ValueOfResult();
+        try {
+            result=csvAPI.select(ClassType.ORD, "number", orderNumber);
+            result.setStatus(StatusType.GOOD.toString());
+        } catch (Exception ex) {
+            log.error(ex);
+            result.setStatus(StatusType.ERROR.toString());
+            result.setErrMsg(ex.getMessage());
+        }
+        return result;
+    }
+
+    @Override
+    public ValueOfResult getCustomerActivity(long customerId) {
+        ValueOfResult result = new ValueOfResult();
+        try {
+            result=select(ClassType.ORD, "customer", Long.toString(customerId));
+            result.setStatus(StatusType.GOOD.toString());
+        } catch (Exception ex) {
+            log.error(ex);
+            result.setStatus(StatusType.ERROR.toString());
+            result.setErrMsg(ex.getMessage());        
+        }
+        return result;
     }
     
-    private boolean isProductsExists(ValueOfResult instance) throws Exception{
+    public Result insert(Order order) throws Exception{
+        ValueOfResult instance;
+        instance=getObjectById(order.getCustomer(), ClassType.CUS);
+        if (!isObjectExists(instance)) {instance.setStatus(StatusType.ERROR.toString()); return instance;}
+        instance=getObjectById(order.getDelivery(), ClassType.DLV);
+        if (!isObjectExists(instance)) {instance.setStatus(StatusType.ERROR.toString()); return instance;}
+        instance=getObjectById(order.getPayment(), ClassType.PAY);
+        if (!isObjectExists(instance)) {instance.setStatus(StatusType.ERROR.toString()); return instance;}
+//        Map <Long,Integer> products = order.getProducts();
+//        for (Map.Entry<Long, Integer> entry : products.entrySet()) {
+//            instance=getObjectById(entry.getKey(), ClassType.PRD);
+//            isObjectExists(instance);
+//            isProductsCount(instance, (int)entry.getValue());
+//        }
+        ArrayList<BaseDto> list = new ArrayList<>(1);
+        list.add(order);
+        return insert(list);
+    }
+    
+    private boolean isObjectExists(ValueOfResult instance) throws Exception{
         boolean result = false;
         if(!instance.getStatus().equals(StatusType.GOOD.toString())){
-                throw new Exception("Products not exist");
+                result = false;
         }else{
             result = true;
         }
@@ -229,10 +256,13 @@ public class CsvAPI implements IGeneric{
     
     private boolean isProductsCount(ValueOfResult instance, int count) throws Exception{
         boolean result = false;
+        CsvAPI csvAPI = new CsvAPI();
         Product product = (Product) instance.getValue().get(0);
         if(product.getCount()<count){
                 throw new Exception("Products count is few");
-        }else{
+        }else {
+            product.setCount(product.getCount()-count);
+            csvAPI.update(product);
             result = true;
         }
         return result;

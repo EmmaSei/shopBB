@@ -2,14 +2,19 @@
 package ru.sfedu.shop.dto;
 
 import java.io.Serializable;
+import org.simpleframework.xml.*;
 
 /**
  *
  * @author Эмма
  */
-public class BaseDto implements Serializable{
+public abstract class BaseDto implements Serializable{
+    @Element
     private ClassType classType;
+    
+    @Element (name="id")
     private long id = 1l;
+    
     public BaseDto(ClassType classType) throws InterruptedException {
         this.classType = classType;
         Thread.sleep(1);
@@ -37,5 +42,5 @@ public class BaseDto implements Serializable{
         this.id = id;
     }
     
-    
+    public abstract String getValueByFieldName(String name) throws Exception;
 }

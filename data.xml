@@ -1,0 +1,18 @@
+<root>
+   <container>
+      <baseDto class="ru.sfedu.shop.dto.Payment">
+         <classType>PAY</classType>
+         <id>1487938745894</id>
+         <paymentMethod>card</paymentMethod>
+         <dateReceived>19122016</dateReceived>
+         <amountReceived>2.0</amountReceived>
+      </baseDto>
+      <baseDto class="ru.sfedu.shop.dto.Payment">
+         <classType>PAY</classType>
+         <id>1487938745909</id>
+         <paymentMethod>card</paymentMethod>
+         <dateReceived>30122016</dateReceived>
+         <amountReceived>7.0</amountReceived>
+      </baseDto>
+   </container>
+</root>

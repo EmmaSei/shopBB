@@ -54,5 +54,10 @@ public class Delivery extends BaseDto{
     public String toString() {
         return "Delivery{" + "id=" + getId() + ", method=" + method + ", price=" + price + '}';
     }
+
+    @Override
+    public String getValueByFieldName(String name) throws Exception {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }

@@ -20,7 +20,7 @@ public class PaymentTest {
      * Test of getId method, of class Payment.
      */
     @Test
-    public void testGetId() {
+    public void testGetId() throws InterruptedException {
         Payment instance = new Payment(System.currentTimeMillis(), "Начиными при доставке", 07122016, 5);
         System.out.println(instance.toString());
         assertNotNull(instance);

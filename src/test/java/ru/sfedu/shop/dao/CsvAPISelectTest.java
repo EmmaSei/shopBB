@@ -7,7 +7,7 @@ import org.apache.log4j.Logger;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
-import ru.sfedu.shop.Client;
+import ru.sfedu.shop.Main;
 import ru.sfedu.shop.dto.BaseDto;
 import ru.sfedu.shop.dto.ClassType;
 import ru.sfedu.shop.model.StatusType;
@@ -15,7 +15,7 @@ import ru.sfedu.shop.model.ValueOfResult;
 
 
 public class CsvAPISelectTest {
-    private static Logger log = Logger.getLogger(Client.class);
+    private static Logger log = Logger.getLogger(Main.class);
      /**
      * Test of select method, of class CsvAPI.
       * @throws java.lang.Exception

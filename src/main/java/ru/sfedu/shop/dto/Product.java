@@ -65,5 +65,10 @@ public class Product extends BaseDto{
         }
         return true;
     }
+
+    @Override
+    public String getValueByFieldName(String name) throws Exception {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }

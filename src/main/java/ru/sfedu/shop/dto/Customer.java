@@ -7,18 +7,20 @@ public class Customer extends BaseDto{
     private String phone;
     private String email;
     private int countOrder=0;
+    private boolean admin=false;
 
     public Customer() throws InterruptedException {
         super(ClassType.CUS);
     }
 
-    public Customer(long id, String name, String address, String phone, String email) throws InterruptedException {
+    public Customer(long id, String name, String address, String phone, String email, boolean admin) throws InterruptedException {
         super(ClassType.CUS);
         setId(id);
         this.name = name;
         this.address = address;
         this.phone = phone;
         this.email = email;
+        this.admin = admin;
     }
     
     public String getName() {
@@ -27,6 +29,14 @@ public class Customer extends BaseDto{
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public boolean isAdmin() {
+        return admin;
+    }
+
+    public void setAdmin(boolean admin) {
+        this.admin = admin;
     }
 
     public String getAddress() {
@@ -82,6 +92,11 @@ public class Customer extends BaseDto{
 
     public void setCountOrder(int countOrder) {
         this.countOrder = countOrder;
+    }
+
+    @Override
+    public String getValueByFieldName(String name) throws Exception {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }

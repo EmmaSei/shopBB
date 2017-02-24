@@ -21,7 +21,7 @@ public class ProductTest {
      * Test of getId method, of class Product.
      */
     @Test
-    public void testGetId() {
+    public void testGetId() throws InterruptedException{
         Product instance = new Product(System.currentTimeMillis(), "rolex daytona gold", 300000, 1);
         System.out.println(instance.toString());
         assertNotNull(instance);
