@@ -3,16 +3,35 @@ package ru.sfedu.shop.dto;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
+import org.simpleframework.xml.*;
 
+@Root
 public class Order extends BaseDto{
+    
+    @Element
     private long customer;
+    
+    @Element
     private String number;
+    
+    @Element
     private long payment;
+    
+    @Element
     private long date;
+    
+    @Element (name = "status")
     private String statusOrder;
+    
+    @Element(name = "amount")
     private float amountOrder;
+    
+    @Element
     private long delivery;
+    
     private String productsString="";
+    
+    @ElementMap
     private Map <Long,Integer> products = new HashMap<Long, Integer>();
 
     public Order() throws InterruptedException {
@@ -169,7 +188,19 @@ public class Order extends BaseDto{
     }
 
     @Override
-    public String getValueByFieldName(String name) throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+    public String getValueByFieldName(String name) throws Exception{
+        String value;
+        switch(name){
+            case "id" : value = Long.toString(getId()); break;
+            case "customer"  : value = Long.toString(customer); break;
+            case "number"  : value = number; break;
+            case "payment"  : value = Long.toString(payment); break;
+            case "date"  : value = Long.toString(date); break;
+            case "status"  : value = statusOrder; break;
+            case "amount"  : value = Float.toString(amountOrder); break;
+            case "delivery"  : value = Long.toString(delivery); break;
+            default : throw new Exception("field is not right");
+        }
+        return value;
+    } 
 }

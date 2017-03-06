@@ -1,8 +1,10 @@
 package ru.sfedu.shop.dao;
+import java.util.ArrayList;
 import org.apache.log4j.Logger;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import ru.sfedu.shop.Main;
+import ru.sfedu.shop.dto.BaseDto;
 import ru.sfedu.shop.dto.Customer;
 import ru.sfedu.shop.dto.Delivery;
 import ru.sfedu.shop.dto.Order;
@@ -11,10 +13,6 @@ import ru.sfedu.shop.dto.Product;
 import ru.sfedu.shop.model.Result;
 import ru.sfedu.shop.model.StatusType;
 
-/**
- *
- * @author Эмма
- */
 public class CsvAPIInsertTest {
      private static final Logger log = Logger.getLogger(Main.class);
        /**
@@ -28,11 +26,13 @@ public class CsvAPIInsertTest {
             Result expResult = new Result();
             Result result;
             Delivery obj;
+            ArrayList <BaseDto> list = new ArrayList<>();
             for (int i = 0; i < 10; i++) {
                 obj = new Delivery(System.currentTimeMillis(), "customer pickup", 0);
-                result = instance.insert(obj);
-                assertEquals(StatusType.GOOD.toString(), result.getStatus());
+                list.add(obj);
             }
+            result = instance.insert(list);
+            assertEquals(StatusType.GOOD.toString(), result.getStatus());
         } catch (Exception e) {
             log.error("Error: "+e);
             throw e;
@@ -45,12 +45,14 @@ public class CsvAPIInsertTest {
             CsvAPI instance = new CsvAPI();
             Result expResult = new Result();
             Result result;
+            ArrayList <BaseDto> list = new ArrayList<>();
             Product obj;
             for (int i = 0; i < 10; i++) {
                 obj = new Product(System.currentTimeMillis(), "desk", 100 ,5);
-                result = instance.insert(obj);
-                assertEquals(StatusType.GOOD.toString(), result.getStatus());
+                list.add(obj);
             }
+            result = instance.insert(list);
+            assertEquals(StatusType.GOOD.toString(), result.getStatus());
         } catch (Exception e) {
             log.error("Error: "+e);
             throw e;
@@ -62,12 +64,14 @@ public class CsvAPIInsertTest {
             System.out.println("Insert Customer");
             CsvAPI instance = new CsvAPI();
             Result result;
+            ArrayList <BaseDto> list = new ArrayList<>();
             Customer obj;
             for (int i = 1; i < 11; i++) {
                 obj = new Customer(System.currentTimeMillis(), "Pavel", "Zorge "+i+" zh", "9876543456","pasha@mail.ru", false);
-                result = instance.insert(obj);
-                assertEquals(StatusType.GOOD.toString(), result.getStatus());
+                list.add(obj);
             }
+            result = instance.insert(list);
+            assertEquals(StatusType.GOOD.toString(), result.getStatus());
         } catch (Exception e) {
             log.error("Error: "+e);
             throw e;
@@ -81,13 +85,17 @@ public class CsvAPIInsertTest {
             CsvAPI instance = new CsvAPI();
             Result result;
             Payment obj;
+            ArrayList <BaseDto> list = new ArrayList<>();
             Product bj = new Product(System.currentTimeMillis(), "desk", 100 ,50);
-            instance.insert(bj);
+            list.add(bj);
+            instance.insert(list);
+            list.clear();
             for (int i = 0; i < 10; i++) {
                 obj = new Payment(System.currentTimeMillis(), "card", 19122016, 2);
-                result = instance.insert(obj);
-                assertEquals(StatusType.GOOD.toString(), result.getStatus());
+                list.add(obj);
             }
+            result = instance.insert(list);
+            assertEquals(StatusType.GOOD.toString(), result.getStatus());
         } catch (Exception e) {
             log.error("Error: "+e);
             throw e;

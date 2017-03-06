@@ -1,7 +1,15 @@
 package ru.sfedu.shop.dto;
 
+import org.simpleframework.xml.Element;
+import org.simpleframework.xml.Root;
+
+@Root
 public class Delivery extends BaseDto{
+    
+    @Element
     private String method;
+    
+    @Element
     private float price;
     
     
@@ -56,8 +64,15 @@ public class Delivery extends BaseDto{
     }
 
     @Override
-    public String getValueByFieldName(String name) throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+    public String getValueByFieldName(String name) throws Exception{
+        String value;
+        switch(name){
+            case "id" : value = Long.toString(getId()); break;
+            case "method"  : value = method; break;
+            case "price"  : value = Float.toString(price); break;
+            default : throw new Exception("field is not right");
+        }
+        return value;
+    }    
     
 }

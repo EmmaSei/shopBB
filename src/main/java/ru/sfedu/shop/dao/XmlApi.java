@@ -2,7 +2,6 @@ package ru.sfedu.shop.dao;
 
 import java.io.File;
 import java.io.IOException;
-import java.lang.reflect.Field;
 import java.util.ArrayList;
 import org.apache.log4j.Logger;
 import org.simpleframework.xml.Serializer;
@@ -11,7 +10,7 @@ import static ru.sfedu.shop.Const.PATH_XML_STORE;
 import ru.sfedu.shop.Main;
 import ru.sfedu.shop.dto.BaseDto;
 import ru.sfedu.shop.dto.ClassType;
-import ru.sfedu.shop.dto.ContainerPayment;
+import ru.sfedu.shop.dto.Container;
 import ru.sfedu.shop.model.Result;
 import ru.sfedu.shop.model.StatusType;
 import ru.sfedu.shop.model.ValueOfResult;
@@ -28,7 +27,7 @@ public class XmlApi implements IGeneric{
         File file = new File(getFileName(list.get(0).getClassType()));
         Serializer serializer = new Persister();
         ValueOfResult res = new ValueOfResult();
-        ContainerPayment container = new ContainerPayment();
+        Container container = new Container();
         list.addAll(select(list.get(0).getClassType()).getValue());
         container.setList(list);
         try{
@@ -73,16 +72,18 @@ public class XmlApi implements IGeneric{
     }
 
     @Override
-    public Result delete(BaseDto baseDto) throws Exception {
-        Result result = new Result();
+    public ValueOfResult delete(BaseDto baseDto) throws Exception {
+        ValueOfResult result = new ValueOfResult();
         try {
             Serializer serializer = new Persister();
-            ContainerPayment container = new ContainerPayment();
+            Container container = new Container();
             ArrayList<BaseDto> list;
             ValueOfResult rv = select(baseDto.getClassType());
             list = (ArrayList<BaseDto>) rv.getValue();
-            if(list.isEmpty())
+            if(list.isEmpty()){
+                result.setStatus(StatusType.ERROR.toString());
                 throw new Exception("File is empty");
+            }
             list.remove(select(baseDto.getClassType(), "id", Long.toString(baseDto.getId())).getValue().get(0));
             container.setList(list);
             File file = new File(getFileName(list.get(0).getClassType()));
@@ -107,9 +108,9 @@ public class XmlApi implements IGeneric{
         Serializer serializer = new Persister();
         ArrayList<BaseDto> list;
         File source = new File(getFileName(classType));
-        ContainerPayment container;
+        Container container;
         try{
-            container=serializer.read(ContainerPayment.class, source);
+            container=serializer.read(Container.class, source);
             list = container.getList();
             if ((arg != null) && (value != null)) {
                 for (int i = 0; i < list.size(); i++) {
@@ -130,24 +131,4 @@ public class XmlApi implements IGeneric{
         return result;
     }
     
-    @Override
-    public Result getObjectById(long id, ClassType classType) throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public Result getDeliveryByOrderNumber(String number) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public Result getOrderDetail(String orderNumber) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public Result getCustomerActivity(long customerId) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
 }

@@ -7,7 +7,10 @@ package ru.sfedu.shop;
 public class Const {
     public static final String GLOBAL_PROP = "ru.sfedu.shop.prop";
     public static final String PATH_CSV_STORE = "ru.sfedu.path.csv_store";
+    public static final String PATH_DB_STORE = "ru.sfedu.path.db.url";
     public static final String PATH_XML_STORE = "ru.sfedu.path.xml_store";
+    public static final String DB_USER = "ru.sfedu.path.db.user";
+    public static final String DB_PSW = "ru.sfedu.path.db.password";
     public static final String[] COLUMNS_CUS = new String[] {"id", "name", "address", "phone", "email", "countOrder", "admin"}; 
     public static final String[] COLUMNS_ORD = new String[] {"id", "customer", "number", "payment", "date", "statusOrder", "amountOrder", "delivery", "productsString"};
     public static final String[] COLUMNS_PRD = new String[] {"id", "name", "price", "count"}; 

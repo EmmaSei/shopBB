@@ -5,11 +5,13 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 import org.apache.log4j.Logger;
+import static ru.sfedu.shop.Const.GLOBAL_PROP;
 
 import ru.sfedu.shop.dao.CsvAPI;
 import ru.sfedu.shop.dao.XmlApi;
 import ru.sfedu.shop.dto.ClassType;
 import ru.sfedu.shop.model.ValueOfResult;
+import ru.sfedu.shop.utils.ConfigurationUtil;
 
 
 public class Main {
@@ -35,12 +37,12 @@ public class Main {
     }
     
     public static void main(String[] args) throws Exception{
-       // ConfigurationUtil configurationUtil = new ConfigurationUtil(System.getProperty(GLOBAL_PROP));
+     //   ConfigurationUtil configurationUtil = new ConfigurationUtil(System.getProperty(GLOBAL_PROP));
        // log.debug(System.getProperty(GLOBAL_PROP));
        // log.debug(configurationUtil.getConfigurationEntry(PATH_CSV_STORE));
       // Main main = new Main();
       // main.logBasicSystemInfo();
-       cli();
+  //     cli();
     }
     
     public static void cli() throws Exception{

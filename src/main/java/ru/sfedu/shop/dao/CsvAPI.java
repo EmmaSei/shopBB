@@ -13,7 +13,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 import java.util.List;
-import java.util.Map;
 
 import org.apache.log4j.Logger;
 import ru.sfedu.shop.utils.FilterCSV;
@@ -174,12 +173,10 @@ public class CsvAPI implements IGeneric{
         return strategy;
     }
     
-    @Override
     public ValueOfResult getObjectById(long id, ClassType classType) throws Exception{
         return select(classType, "id", Long.toString(id));
     }
 
-    @Override
     public ValueOfResult getDeliveryByOrderNumber(String number) {
         ValueOfResult result= new ValueOfResult();
         Order order;
@@ -196,7 +193,6 @@ public class CsvAPI implements IGeneric{
         
     }
 
-    @Override
     public ValueOfResult getOrderDetail(String orderNumber) {
         CsvAPI csvAPI = new CsvAPI();
         ValueOfResult result = new ValueOfResult();
@@ -211,7 +207,6 @@ public class CsvAPI implements IGeneric{
         return result;
     }
 
-    @Override
     public ValueOfResult getCustomerActivity(long customerId) {
         ValueOfResult result = new ValueOfResult();
         try {

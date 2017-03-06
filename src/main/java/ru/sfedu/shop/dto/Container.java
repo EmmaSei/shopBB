@@ -5,12 +5,12 @@ import org.simpleframework.xml.ElementList;
 import org.simpleframework.xml.Root;
 
 @Root(name = "root")
-public class ContainerPayment {
+public class Container {
     
     @ElementList (required = false,name="container")
     ArrayList <BaseDto> list;
 
-    public ContainerPayment() {
+    public Container() {
     }
     
     public ArrayList<BaseDto> getList() {

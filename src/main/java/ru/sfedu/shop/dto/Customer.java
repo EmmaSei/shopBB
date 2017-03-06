@@ -1,12 +1,26 @@
 package ru.sfedu.shop.dto;
 
+import org.simpleframework.xml.Element;
+import org.simpleframework.xml.Root;
+
+@Root
 public class Customer extends BaseDto{
-    
+    @Element
     private String name;
+    
+    @Element
     private String address;
+    
+    @Element
     private String phone;
+    
+    @Element
     private String email;
+    
+    @Element
     private int countOrder=0;
+    
+    @Element
     private boolean admin=false;
 
     public Customer() throws InterruptedException {
@@ -93,10 +107,20 @@ public class Customer extends BaseDto{
     public void setCountOrder(int countOrder) {
         this.countOrder = countOrder;
     }
-
+  
     @Override
-    public String getValueByFieldName(String name) throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-    
+    public String getValueByFieldName(String name) throws Exception{
+        String value;
+        switch(name){
+            case "id" : value = Long.toString(getId()); break;
+            case "name"  : value = name; break;
+            case "address"  : value = address; break;
+            case "phone"  : value = phone; break;
+            case "email"  : value = email; break;
+            case "countOrder"  : value = Float.toString(countOrder); break;
+            case "admin"  : value = Boolean.toString(admin); break;
+            default : throw new Exception("field is not right");
+        }
+        return value;
+    }    
 }

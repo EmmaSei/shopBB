@@ -7,7 +7,7 @@ public class Payment extends BaseDto{
     @Element(name="paymentMethod")
     private String paymentMethod;
     
-    @Element(name="dateReceived")
+    @Element(name="date")
     private long dateReceived;
     
     @Element

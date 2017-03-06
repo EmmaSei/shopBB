@@ -17,8 +17,4 @@ public interface IGeneric {
     public Result select(ClassType classType)  throws Exception;
     public Result select(ClassType classType, String arg, String value) throws Exception;
     
-    public Result getObjectById(long id,ClassType classType)throws Exception;
-    public Result getDeliveryByOrderNumber(String number);
-    public Result getOrderDetail(String orderNumber);
-    public Result getCustomerActivity(long customerId);   
 }
